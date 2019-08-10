@@ -1,0 +1,4 @@
+github "ReactiveX/RxSwift" ~> 5.0
+github "RxSwiftCommunity/RxOptional" ~> 4.0.0
+github "suzuki-0000/CountdownLabel"
+

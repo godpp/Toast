@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1EA07022CFC133002404E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA06F22CFC133002404E4 /* AppDelegate.swift */; };
+		BC1EA07222CFC133002404E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA07122CFC133002404E4 /* ViewController.swift */; };
+		BC1EA07522CFC133002404E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1EA07322CFC133002404E4 /* Main.storyboard */; };
+		BC1EA07722CFC138002404E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1EA07622CFC138002404E4 /* Assets.xcassets */; };
+		BC1EA07A22CFC138002404E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1EA07822CFC138002404E4 /* LaunchScreen.storyboard */; };
+		BC1EA08322CFC254002404E4 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1EA08222CFC254002404E4 /* Timer.storyboard */; };
+		BC1EA08522CFC26B002404E4 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA08422CFC26B002404E4 /* TimerViewController.swift */; };
+		BC1EA08722CFC273002404E4 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA08622CFC273002404E4 /* TimerViewModel.swift */; };
+		BC1EA08A22CFC297002404E4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA08922CFC297002404E4 /* BaseViewController.swift */; };
+		BC1EA08C22CFC2E4002404E4 /* RecordingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA08B22CFC2E4002404E4 /* RecordingController.swift */; };
+		BC1EA08F22D108E7002404E4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA08E22D108E7002404E4 /* UIColor+Extension.swift */; };
+		BC1EA09222D10D5F002404E4 /* NumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA09122D10D5F002404E4 /* NumericLabel.swift */; };
+		BC1EA09922D10E1D002404E4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1EA09422D10E1C002404E4 /* RxCocoa.framework */; };
+		BC1EA09B22D10E1D002404E4 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1EA09622D10E1D002404E4 /* RxBlocking.framework */; };
+		BC1EA09C22D10E1D002404E4 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1EA09722D10E1D002404E4 /* RxRelay.framework */; };
+		BC1EA09D22D10E1D002404E4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1EA09822D10E1D002404E4 /* RxSwift.framework */; };
+		BC1EA0A622D11302002404E4 /* ToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA0A522D11302002404E4 /* ToastTests.swift */; };
+		BC1EA0B022DB6565002404E4 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EA0AF22DB6565002404E4 /* TimerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1EA0A822D11302002404E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1EA06422CFC133002404E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1EA06B22CFC133002404E4;
+			remoteInfo = Toast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC1EA06C22CFC133002404E4 /* Toast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1EA06F22CFC133002404E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC1EA07122CFC133002404E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC1EA07422CFC133002404E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC1EA07622CFC138002404E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC1EA07922CFC138002404E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC1EA07B22CFC138002404E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1EA08222CFC254002404E4 /* Timer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		BC1EA08422CFC26B002404E4 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		BC1EA08622CFC273002404E4 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		BC1EA08922CFC297002404E4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BC1EA08B22CFC2E4002404E4 /* RecordingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingController.swift; sourceTree = "<group>"; };
+		BC1EA08E22D108E7002404E4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BC1EA09122D10D5F002404E4 /* NumericLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericLabel.swift; sourceTree = "<group>"; };
+		BC1EA09422D10E1C002404E4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		BC1EA09522D10E1D002404E4 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		BC1EA09622D10E1D002404E4 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		BC1EA09722D10E1D002404E4 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		BC1EA09822D10E1D002404E4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		BC1EA0A322D11302002404E4 /* ToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1EA0A522D11302002404E4 /* ToastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastTests.swift; sourceTree = "<group>"; };
+		BC1EA0A722D11302002404E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1EA0AF22DB6565002404E4 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1EA06922CFC133002404E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1EA09922D10E1D002404E4 /* RxCocoa.framework in Frameworks */,
+				BC1EA09B22D10E1D002404E4 /* RxBlocking.framework in Frameworks */,
+				BC1EA09C22D10E1D002404E4 /* RxRelay.framework in Frameworks */,
+				BC1EA09D22D10E1D002404E4 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1EA0A022D11302002404E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1EA06322CFC133002404E4 = {
+			isa = PBXGroup;
+			children = (
+				BC1EA06E22CFC133002404E4 /* Toast */,
+				BC1EA0A422D11302002404E4 /* ToastTests */,
+				BC1EA06D22CFC133002404E4 /* Products */,
+				BC1EA09322D10E1C002404E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1EA06D22CFC133002404E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA06C22CFC133002404E4 /* Toast.app */,
+				BC1EA0A322D11302002404E4 /* ToastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1EA06E22CFC133002404E4 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA06F22CFC133002404E4 /* AppDelegate.swift */,
+				BC1EA07622CFC138002404E4 /* Assets.xcassets */,
+				BC1EA07822CFC138002404E4 /* LaunchScreen.storyboard */,
+				BC1EA07B22CFC138002404E4 /* Info.plist */,
+				BC1EA08822CFC28B002404E4 /* Base */,
+				BC1EA0AD22D1142B002404E4 /* Main */,
+				BC1EA08122CFC247002404E4 /* Timer */,
+				BC1EA08D22D108CA002404E4 /* Extension */,
+				BC1EA09022D10D50002404E4 /* Library */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		BC1EA08122CFC247002404E4 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA08222CFC254002404E4 /* Timer.storyboard */,
+				BC1EA08422CFC26B002404E4 /* TimerViewController.swift */,
+				BC1EA08622CFC273002404E4 /* TimerViewModel.swift */,
+				BC1EA0AE22D1143E002404E4 /* Recording */,
+				BC1EA0AF22DB6565002404E4 /* TimerController.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		BC1EA08822CFC28B002404E4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA08922CFC297002404E4 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BC1EA08D22D108CA002404E4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA08E22D108E7002404E4 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BC1EA09022D10D50002404E4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA09122D10D5F002404E4 /* NumericLabel.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BC1EA09322D10E1C002404E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA09622D10E1D002404E4 /* RxBlocking.framework */,
+				BC1EA09422D10E1C002404E4 /* RxCocoa.framework */,
+				BC1EA09722D10E1D002404E4 /* RxRelay.framework */,
+				BC1EA09822D10E1D002404E4 /* RxSwift.framework */,
+				BC1EA09522D10E1D002404E4 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1EA0A422D11302002404E4 /* ToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA0A522D11302002404E4 /* ToastTests.swift */,
+				BC1EA0A722D11302002404E4 /* Info.plist */,
+			);
+			path = ToastTests;
+			sourceTree = "<group>";
+		};
+		BC1EA0AD22D1142B002404E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA07322CFC133002404E4 /* Main.storyboard */,
+				BC1EA07122CFC133002404E4 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BC1EA0AE22D1143E002404E4 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EA08B22CFC2E4002404E4 /* RecordingController.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1EA06B22CFC133002404E4 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1EA07E22CFC138002404E4 /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				BC1EA06822CFC133002404E4 /* Sources */,
+				BC1EA06922CFC133002404E4 /* Frameworks */,
+				BC1EA06A22CFC133002404E4 /* Resources */,
+				BC1EA09E22D10E26002404E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = BC1EA06C22CFC133002404E4 /* Toast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1EA0A222D11302002404E4 /* ToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1EA0AA22D11302002404E4 /* Build configuration list for PBXNativeTarget "ToastTests" */;
+			buildPhases = (
+				BC1EA09F22D11302002404E4 /* Sources */,
+				BC1EA0A022D11302002404E4 /* Frameworks */,
+				BC1EA0A122D11302002404E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1EA0A922D11302002404E4 /* PBXTargetDependency */,
+			);
+			name = ToastTests;
+			productName = ToastTests;
+			productReference = BC1EA0A322D11302002404E4 /* ToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1EA06422CFC133002404E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = DDD.;
+				TargetAttributes = {
+					BC1EA06B22CFC133002404E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BC1EA0A222D11302002404E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BC1EA06B22CFC133002404E4;
+					};
+				};
+			};
+			buildConfigurationList = BC1EA06722CFC133002404E4 /* Build configuration list for PBXProject "Toast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1EA06322CFC133002404E4;
+			productRefGroup = BC1EA06D22CFC133002404E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1EA06B22CFC133002404E4 /* Toast */,
+				BC1EA0A222D11302002404E4 /* ToastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1EA06A22CFC133002404E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1EA08322CFC254002404E4 /* Timer.storyboard in Resources */,
+				BC1EA07A22CFC138002404E4 /* LaunchScreen.storyboard in Resources */,
+				BC1EA07722CFC138002404E4 /* Assets.xcassets in Resources */,
+				BC1EA07522CFC133002404E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1EA0A122D11302002404E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC1EA09E22D10E26002404E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CountdownLabel.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1EA06822CFC133002404E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1EA09222D10D5F002404E4 /* NumericLabel.swift in Sources */,
+				BC1EA08F22D108E7002404E4 /* UIColor+Extension.swift in Sources */,
+				BC1EA0B022DB6565002404E4 /* TimerController.swift in Sources */,
+				BC1EA08A22CFC297002404E4 /* BaseViewController.swift in Sources */,
+				BC1EA08722CFC273002404E4 /* TimerViewModel.swift in Sources */,
+				BC1EA08C22CFC2E4002404E4 /* RecordingController.swift in Sources */,
+				BC1EA07222CFC133002404E4 /* ViewController.swift in Sources */,
+				BC1EA08522CFC26B002404E4 /* TimerViewController.swift in Sources */,
+				BC1EA07022CFC133002404E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1EA09F22D11302002404E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1EA0A622D11302002404E4 /* ToastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1EA0A922D11302002404E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1EA06B22CFC133002404E4 /* Toast */;
+			targetProxy = BC1EA0A822D11302002404E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1EA07322CFC133002404E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1EA07422CFC133002404E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC1EA07822CFC138002404E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1EA07922CFC138002404E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1EA07C22CFC138002404E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1EA07D22CFC138002404E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1EA07F22CFC138002404E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86PPC52X64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = Toast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ddd.seongjun-park.Toast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1EA08022CFC138002404E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86PPC52X64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = Toast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ddd.seongjun-park.Toast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC1EA0AB22D11302002404E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86PPC52X64;
+				INFOPLIST_FILE = ToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ddd.seongjun-park.ToastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toast.app/Toast";
+			};
+			name = Debug;
+		};
+		BC1EA0AC22D11302002404E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86PPC52X64;
+				INFOPLIST_FILE = ToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ddd.seongjun-park.ToastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toast.app/Toast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1EA06722CFC133002404E4 /* Build configuration list for PBXProject "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1EA07C22CFC138002404E4 /* Debug */,
+				BC1EA07D22CFC138002404E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1EA07E22CFC138002404E4 /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1EA07F22CFC138002404E4 /* Debug */,
+				BC1EA08022CFC138002404E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1EA0AA22D11302002404E4 /* Build configuration list for PBXNativeTarget "ToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1EA0AB22D11302002404E4 /* Debug */,
+				BC1EA0AC22D11302002404E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1EA06422CFC133002404E4 /* Project object */;
+}
